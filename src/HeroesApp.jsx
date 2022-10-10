@@ -6,7 +6,6 @@ export const HeroesApp = () => {
     <>
       <Navbar />
       <AppRouter />
-      <h1>HeroesApp</h1>
     </>
   );
 };
