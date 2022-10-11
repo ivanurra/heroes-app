@@ -1,3 +1,3 @@
 export const LoginPage = () => {
-  return <h1>LoginPage</h1>;
+  return <h1 className="p-3">LoginPage</h1>;
 };
