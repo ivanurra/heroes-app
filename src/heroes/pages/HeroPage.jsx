@@ -11,8 +11,14 @@ export const HeroPage = () => {
   }
 
   return (
-    <>
-      <h1>{hero.superhero}</h1>
-    </>
+    <div className="row mt-5">
+      <div className="col-4">
+        <img
+          src={`/assets/heroes/${id}.jpg`}
+          alt={hero.superhero}
+          className="img-thumbnail"
+        />
+      </div>
+    </div>
   );
 };
