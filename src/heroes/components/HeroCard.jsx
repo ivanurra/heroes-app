@@ -26,7 +26,7 @@ export const HeroCard = ({
                   First Appearance: {first_appearance}
                 </small>
               </p>
-              <Link className="btn btn-secondary" to={`/hero/${ id }`}>
+              <Link className="btn btn-secondary" to={`/hero/${id}`}>
                 More info
               </Link>
             </div>
