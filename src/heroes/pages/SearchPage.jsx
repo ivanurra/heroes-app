@@ -63,14 +63,14 @@ export const SearchPage = () => {
           )} */}
 
           <div
-            className="alert alert-primary"
+            className="alert alert-primary animate__animated animate__fadeIn"
             style={{ display: showSearch ? "" : "none" }}
           >
             Search a hero
           </div>
 
           <div
-            className="alert alert-danger"
+            className="alert alert-danger animate__animated animate__fadeIn"
             style={{ display: showError ? "" : "none" }}
           >
             No results <b>{q}</b>
